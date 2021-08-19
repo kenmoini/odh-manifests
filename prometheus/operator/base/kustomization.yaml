@@ -10,4 +10,4 @@ commonLabels:
   opendatahub.io/component: "true"
   component.opendatahub.io/name: prometheus
 generatorOptions:
-  disableNameSuffixHash: true
+  disableNameSuffixHash: false

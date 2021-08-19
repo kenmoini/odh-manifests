@@ -11,7 +11,7 @@ configMapGenerator:
 - name: odh-common-config
   env: params.env
 generatorOptions:
-  disableNameSuffixHash: true
+  disableNameSuffixHash: false
 
 vars:
 - name: namespace
@@ -22,5 +22,5 @@ vars:
   fieldref:
     fieldpath: metadata.namespace
 
-configurations:
-- params.yaml
+#configurations:
+#- params.yaml
